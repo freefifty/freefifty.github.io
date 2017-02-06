@@ -12,5 +12,6 @@ css: /css/post.css
 > Loch Ness Monster: I need about **tree fiddy** (3.50 :dollar:).  
 > Chef's father: I ain't giving you no **tree fiddy** (3.50 :dollar:)!!  
 
-[![Tree Fiddy]({{ site.url }}/img/treefiddy.png)](https://www.youtube.com/watch?v=9xCAs08QPNw&t=58s){:target="_blank"}
-
+[![Tree Fiddy](https://freefifty.github.io/img/treefiddy.png)](https://www.youtube.com/watch?v=9xCAs08QPNw&t=58s){:target="_blank"}
+  
+<p class='author'>Author: Ekaterina</p>

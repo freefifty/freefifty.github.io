@@ -29,8 +29,14 @@ a#text-link-colour:link {
   color: #3AAF9F;
 }
 
+.author {
+	font-style: italic;
+	color: #838383;
+}
+
 /* Custom care of the footer*/
-.post-meta, p.theme-by, p.copyright, .blog-tags,.btn, #contact, .align-center  {
+.post-meta, p.theme-by, p.copyright, .blog-tags,
+.btn, #contact, .align-center, .author  {
   font-family: DecimaRegular;
 }
 /* End of footer customization*/
