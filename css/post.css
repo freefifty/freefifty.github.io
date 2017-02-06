@@ -3,13 +3,22 @@
 
 @import url('font-decima.css');
 
+.message-sent {
+  font-size: 20px;
+}
+
+.align-center, .message-sent {
+	text-align: center;
+}
+
+/* HIDE social sharing buttons at the bottom of text in posts. */
+#social-share-section {
+	visibility: hidden;
+}
+
 #contact {
   background-color: #f5f5f5;
   font-size: 25px;
-}
-
-.btn, #contact {
-  font-family: DecimaRegular;
 }
 
 .btn, a#text-link-colour:hover {
@@ -21,7 +30,7 @@ a#text-link-colour:link {
 }
 
 /* Custom care of the footer*/
-p.theme-by, p.copyright {
+.post-meta, p.theme-by, p.copyright, .blog-tags,.btn, #contact, .align-center  {
   font-family: DecimaRegular;
 }
 /* End of footer customization*/

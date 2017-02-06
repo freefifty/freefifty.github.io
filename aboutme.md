@@ -59,7 +59,7 @@ This is why we offer <b>50 free</b> hours to all do-good projects.
   <input type="hidden" name="_subject" value="freefifty.github.io: a new incoming message">
   <textarea type="text" name="content" class="form-control input-lg" placeholder="Message" title="Message" required="required" rows="3"></textarea>
   <input type="text" name="_gotcha" style="display:none">
-  <input type="hidden" name="_next" value="./aboutme?message=Your message was sent successfully, thanks!" />
+  <input type="hidden" name="_next" value="./message-sent" />
 
   <br/>
   <button type="submit" class="btn btn-lg btn-primary">Submit</button>
