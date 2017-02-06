@@ -1,16 +1,6 @@
 @import url("pygment_highlights.css");
 /* Import Decima Font */
-@import url(//db.onlinewebfonts.com/c/c4eb1cad63b9f8814b71d2f912d8c651?family=DecimaW01-Regular);
-
-
-  @font-face {font-family: "DecimaRegular";
-    src: url("//db.onlinewebfonts.com/t/c4eb1cad63b9f8814b71d2f912d8c651.eot");
-    src: url("//db.onlinewebfonts.com/t/c4eb1cad63b9f8814b71d2f912d8c651.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/c4eb1cad63b9f8814b71d2f912d8c651.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/c4eb1cad63b9f8814b71d2f912d8c651.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/c4eb1cad63b9f8814b71d2f912d8c651.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/c4eb1cad63b9f8814b71d2f912d8c651.svg#DecimaW01-Regular") format("svg");
-  }
+@import url('font-decima.css');
 
 /* --- General --- */
 
