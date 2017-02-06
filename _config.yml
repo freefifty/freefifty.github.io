@@ -23,7 +23,7 @@ title: Free Fifty
 
 # List of links in the navigation bar
 navbar-links:
-  About: "aboutme"
+  Why Free Fifty?: "aboutme"
   Stories:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
