@@ -14,7 +14,7 @@ css: "/css/post.css"
 Claim <b>your</b> free 50 hours of data science work for <b>YOUR DO-GOOD PROJECT</b>.
 <br/>
 <br/>
-You can <span class="fa fa-envelope about-icon"></span> <a id = 'text-link-colour' href="mailto:estambolieva@gmail.com?subject=freefifty.github.io: new incoming e-mail">email us</a>  OR use this form <span class="fa fa-arrow-down about-icon"></span> :</p>
+You can  :envelope: <a id = 'text-link-colour' href="mailto:estambolieva@gmail.com?subject=freefifty.github.io: new incoming e-mail">email us</a>  OR use this form <span class="fa fa-arrow-down about-icon"></span> :</p>
 
 <form action="https://formspree.io/estambolieva@gmail.com" method="POST" class="form" id="contact-form">
   <div class="row">

@@ -6,4 +6,4 @@ comments: true
 css: /css/post.css
 ---
 
-Coming soon! <span class="fa fa-recycle about-icon"></span>
+Coming soon!  :soon:  :recycle: 
