@@ -23,4 +23,4 @@ It turns out that South Park
 
 This is our contribution to saving our world, as we know it.  
     
-<p class='author'>Author: Ekaterina</p>
+<p class='author'>Author: Ekaterina Stambolieva</p>
