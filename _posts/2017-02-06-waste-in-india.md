@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Waste In India
-image: /img/treefiddy.png
 tags: [waste, visualization, India]
 date: 2017-02-06 12:00:00
 show-avatar: false
