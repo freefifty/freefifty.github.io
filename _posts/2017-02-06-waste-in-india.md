@@ -49,7 +49,7 @@ Feel free to click <i class="fa fa-hand-pointer-o" aria-hidden="true"></i> and e
 
 We use *dummy data*. It details the locations of a chain of restaurants called Sweetgreen in Washington, DC.    
   
-<iframe class="frame" src="https://freefifty.github.io/binbag/">
+<iframe class="frame" src="https://freefifty.github.io/binbag/map.html">
   <p>Your browser does not support iframes.</p>
 </iframe>  
   
@@ -57,11 +57,19 @@ Click this [link](https://freefifty.github.io/binbag){:target="_blank"} to explo
   
 The next step is to enable filtering: by city and /or/ state. This current examples shows all entries which are either in 'Washington DC' or in 'MD', which stands for maryland.   
 
-<iframe class="frame" src="https://freefifty.github.io/binbag/?state=MD&city=Washington%20DC">
+<iframe class="frame" src="https://freefifty.github.io/binbag/map.html?state=MD&city=Washington%20DC">
   <p>Your browser does not support iframes.</p>
 </iframe>  
   
-View [this](https://freefifty.github.io/binbag/?state=MD&amp;city=Washington%20DC){:target="_blank"} in a browser.  
+View [this](https://freefifty.github.io/binbag/map.html?state=MD&amp;city=Washington%20DC){:target="_blank"} in a browser.  
+  
+After this we added an index search page, which looks like this:  
+  
+<iframe class="frame" src="https://freefifty.github.io/binbag/">
+  <p>Your browser does not support iframes.</p>
+</iframe>  
+  
+Click this [link](https://freefifty.github.io/binbag/){:target="_blank"} to explore better.  
 
 This was made with [Mapbox](https://www.mapbox.com/){:target="_blank"}, [D3.js](https://d3js.org/){:target="_blank"} and [Jekyll](https://jekyllrb.com/){:target="_blank"}, and it feels like:    
   
