@@ -53,7 +53,7 @@ We use *[dummy data](https://freefifty.github.io/binbag/recyclers.csv)*. It deta
   <p>Your browser does not support iframes.</p>
 </iframe>  
   
-Click this [link](https://freefifty.github.io/binbag){:target="_blank"} to explore better.  
+Click this [link](https://freefifty.github.io/binbag/map.html){:target="_blank"} to explore better.  
   
 The next step is to enable filtering: by type of accepted waste for recycling and /or/ city. This current examples shows all entries which are in 'Bangalore' and recyclye 'batteries'.   
 
@@ -61,7 +61,7 @@ The next step is to enable filtering: by type of accepted waste for recycling an
   <p>Your browser does not support iframes.</p>
 </iframe>  
   
-View [this](https://freefifty.github.io/binbagmap.html?type=battery&amp;city=Bangalore){:target="_blank"} in a browser.  
+View [this](https://freefifty.github.io/binbag/map.html?type=battery&amp;city=Bangalore){:target="_blank"} in a browser.  
   
 After this we added an index search page, which looks like this:  
   
