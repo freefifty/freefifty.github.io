@@ -7,8 +7,32 @@ permalink: /404.html
 <div class="text-center">
   <h3>Trying to get where you want to go?</h3>
   <h4>This isn't it. (404 error)</h4>
-  <br/>
-  <p>But while you are here, ....</p>
 
   <img src="{{ site.baseurl }}/img/404.png" />
-</div>
+  <br/>
+  <p>While you are here, <b>take a look</b> at the code that generated the image: </p>
+
+</div>  
+  
+<pre><code>import numpy as np
+import pylab
+import matplotlib.pyplot as plt
+%matplotlib inline
+plt.style.use('ggplot')
+</code></pre> 
+
+<pre><code>x1 = np.array([1, 1, 3, 3, 3])
+y1 = np.array([4, 2, 2, 4, 0])
+plt.plot(x1, y1, marker="o", markerfacecolor="r")
+
+x2 = np.array([4, 4, 6, 6, 4])
+y2 = np.array([0, 4, 4, 0, 0])
+plt.plot(x2, y2, marker="o", markerfacecolor="r")
+
+x3 = np.array([7, 7, 9, 9, 9])
+y3 = np.array([4, 2, 2, 4, 0])
+plt.plot(x3, y3, marker="o", markerfacecolor="r")
+
+plt.xlim(0, 10)
+plt.ylim(-2, 6)
+</code></pre>
