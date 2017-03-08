@@ -3,10 +3,9 @@
 
 
   @font-face {font-family: "DecimaRegular";
-    src: url("https://db.onlinewebfonts.com/t/c4eb1cad63b9f8814b71d2f912d8c651.eot");
-    src: url("https://db.onlinewebfonts.com/t/c4eb1cad63b9f8814b71d2f912d8c651.eot?#iefix") format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/c4eb1cad63b9f8814b71d2f912d8c651.woff2") format("woff2"),
-    url("https://db.onlinewebfonts.com/t/c4eb1cad63b9f8814b71d2f912d8c651.woff") format("woff"),
-    url("https://db.onlinewebfonts.com/t/c4eb1cad63b9f8814b71d2f912d8c651.ttf") format("truetype"),
-    url("https://db.onlinewebfonts.com/t/c4eb1cad63b9f8814b71d2f912d8c651.svg#DecimaW01-Regular") format("svg");
-  }
+    src: url("../fonts/c4eb1cad63b9f8814b71d2f912d8c651.eot");
+    /*src: url("https://db.onlinewebfonts.com/t/c4eb1cad63b9f8814b71d2f912d8c651.eot?#iefix") format("embedded-opentype"),*/
+    src: url("../fonts/c4eb1cad63b9f8814b71d2f912d8c651.woff2") format("woff2");
+    /*url("https://db.onlinewebfonts.com/t/c4eb1cad63b9f8814b71d2f912d8c651.woff") format("woff"),*/
+    /*url("https://db.onlinewebfonts.com/t/c4eb1cad63b9f8814b71d2f912d8c651.ttf") format("truetype"),*/
+    /*url("https://db.onlinewebfonts.com/t/c4eb1cad63b9f8814b71d2f912d8c651.svg#DecimaW01-Regular") format("svg");*/
