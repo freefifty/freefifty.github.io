@@ -1,52 +1,52 @@
 ---
-layout: base
+layout: page
 ---
 
-{% include header.html type="post" %}
+<section>
+	<div class="blog-post text-container">
+		<p class="editor-link"><a href="cloudcannon:collections/{{ page.path }}" class="btn"><strong>&#9998;</strong> Edit Post</a></p>
+		{% include post-title.html post=page %}
 
-<div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+		<div class="post-content">
+			{{ content }}
 
-      <article role="main" class="blog-post">
-        {{ content }}
-      </article>
+			<div class="author">
+				{% assign author_id = page.author_staff_member | prepend: "/staff_members/" | append: "/" %}
+				{% assign author = site.staff_members | where: "url", author_id | first %}
+				<div class="square-image" style="background-image: url('{% include relative-src.html src=author.image_path %}')"></div>
+				<p class="blurb">{{ author.blurb }}</p>
+			</div>
 
-      {% if page.tags.size > 0 %}
-        <div class="blog-tags">
-          Tags:
-          {% if site.link-tags %}
-          {% for tag in page.tags %}
-            <a href="/tag/{{ tag }}">{{ tag }}</a>
-          {% endfor %}
-          {% else %}
-            {{ page.tags | join: ", " }}
-          {% endif %}
-        </div>
-      {% endif %}
+			<div class="blog-navigation">
+				{% if page.previous.url %}
+					<a class="prev" href="{% include relative-src.html src=page.previous.url %}">&laquo; {{ page.previous.title }}</a>
+				{% endif %}
+				{% if page.next.url %}
+					<a class="next" href="{% include relative-src.html src=page.next.url %}">{{ page.next.title }} &raquo;</a>
+				{% endif %}
+			</div>
 
-      {% if page.social-share %}
-        {% include social-share.html %}
-      {% endif %}
 
-      <ul class="pager blog-pager">
-        {% if page.previous.url %}
-        <li class="previous">
-          <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous</a>
-        </li>
-        {% endif %}
-        {% if page.next.url %}
-        <li class="next">
-          <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next &rarr;</a>
-        </li>
-        {% endif %}
-      </ul>
+			{% if site.disqus_shortname and page.comments %}
+				<div id="disqus_thread"></div>
+				<script>
+						var disqus_shortname = '{{ site.disqus_shortname }}';
+						var disqus_config = function () {
+								this.page.url = "{{ page.url | prepend: site.url }}";
+								this.page.identifier = "{{ page.id }}";
+						};
 
-      {% if page.comments %}
-        <div class="disqus-comments">
-          {% include disqus.html %}
-        </div>
-      {% endif %}
-    </div>
-  </div>
-</div>
+						(function() {  // DON'T EDIT BELOW THIS LINE
+								var d = document, s = d.createElement('script');
+
+								s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+								s.setAttribute('data-timestamp', +new Date());
+								(d.head || d.body).appendChild(s);
+						})();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+			{% endif %}
+		</div>
+	</div>
+</section>
